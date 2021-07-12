@@ -1,0 +1,364 @@
+p{  margin-top:0;
+    margin-bottom:32px;
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+/*  */
+.home-admin{
+    background-color:rgba(233, 218, 218,0.7);
+    padding-bottom: 20px;
+    
+}
+.home-admin__name{
+    font-size:6rem;
+    padding-top:5rem;
+    padding-bottom: 3rem;;
+}
+.home-admin__body{
+    display:flex;
+    justify-content:space-between;
+}
+.home-admin__body-item .fas{
+    
+    font-size:10rem;
+    color:white;
+    padding:10px 15px;
+    border-radius: 5px;
+  
+   
+}
+.home-admin__body-item .fa-clipboard-list{
+    background-color:deepskyblue;
+}
+.home-admin__body-item .fa-laptop{
+    background-color:hotpink;
+}
+.home-admin__body-item .fa-users{
+    background-color:limegreen;
+}
+.home-admin__body-item{
+    display:flex;
+    margin:0 10px;
+    background-color: white; 
+    border-radius: 5px;
+    margin-bottom:50px;
+}
+.home-admin__body-item-content{
+ 
+   padding-left:1.5rem;
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+}
+.home-admin__body-item-num{
+    font-size:4rem;
+}
+.home-admin__body-item-label{
+    font-size:2.5rem
+}
+.home-admin_footer{
+    background-color:white;
+    margin:10px;
+    font-size:1.6rem;
+    border-radius: 5px;
+    padding:5px;
+    
+}
+.home-admin_footer p{
+    line-height: 25px;
+    margin-top:50px;
+}
+.home-admin_footer h1{
+    line-height: 25px;
+    margin-top:50px;
+    font-weight:400;
+    font-size:6rem;
+    text-align: center;
+}
+
+/*  */
+
+.table-admin tbody tr .icon{
+    position: relative;
+    top:39%;
+  
+    
+    display:flex;
+    justify-content: space-around;
+    cursor:pointer;
+}
+.table-admin tbody tr td:first-child{
+    color:#fe3e0e;
+    cursor:pointer;
+}
+
+.supplier-list__select{
+    width:15%;;
+    height:3rem;
+    font-size:1.6rem;
+    position: absolute;
+    top:1rem;
+    left:1rem;
+}
+
+.table-admin thead tr{
+
+    width:100%;
+    line-height: 5rem;
+    
+}
+.supplier-c1{
+    width:15%;
+}
+.supplier-c2{
+    width:10%;
+}
+.supplier-c3{
+    width:20%;
+}
+.supplier-c4{
+    width:35%;
+}
+.add-firm{
+    font-size: 1.6rem;
+    color: white;
+    background-color: black;
+    border-radius: .7rem;
+    cursor: pointer;
+    position: absolute;
+    top: 8rem;
+    left: 1rem;
+    padding: 1.1rem;
+}
+.textValidate {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+::placeholder{
+    color: #777;
+}
+.btn-box{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+.submitValidate{
+    width: 110px;
+    height: 35px;
+    margin: 0 10px;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+.form-message{
+	color:red;
+	font-size:1.6rem;
+}
+form {
+    width:30%;  
+    FONT-SIZE:1.6rem;
+}
+.user-sort{
+    width:10%;;
+    height:3rem;
+    font-size:1.6rem;
+    position: absolute;
+    top:4rem;
+    left:1rem;
+}
+.sort-label{
+    font-size:1.6rem;
+    position: absolute;
+    top:1rem;
+    left:1rem;
+}
+.sort-type{
+    font-size:1.6rem;
+    position: absolute;
+    top:7.5rem;
+    left:1rem;
+}
+.table-admin tbody{
+   
+    font-size:1.3rem;
+}
+.search-user{
+    width:15%;
+    font-size:1.3rem;   
+    height:3rem;
+    position: absolute;
+    top:10rem;
+    left:1rem;
+
+}
+/* CHI TIẾT SẢN PHẨM */
+.chitietsanpham__row1{
+    display:flex;
+
+}
+.chitietsanpham_row1-img {
+    width: 50%;
+}
+.chitietsanpham__row1>div{
+   
+    font-size: 2rem;
+
+   
+}
+.chitietsanpham__row1>div div{
+    margin-bottom:1rem;
+    
+
+   
+}
+.chitietsanpham__name{
+   color:#fe3e0e;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+   
+}
+.thongtinchitietsp{
+    width:66%;
+}
+.thongsokithuat{
+    width:34%;
+    margin-left: 1rem;
+}
+b{
+    font-weight: 500;
+}
+
+.chitietsanpham__1{
+    margin-left: 5rem;
+}
+.suasanpham ,.btn-them-hang{
+    background-color: white;
+    border:2px solid black; 
+    padding:5px 20px;
+  
+    border-radius:5px;
+}
+.thongsokithuat table{
+    font-size:1.6rem;
+    width:100%;
+}
+.thongsokithuat tr{
+    border-bottom: 2px solid gray;
+    margin-bottom:2rem;
+}
+.thongsokithuat td:first-child{
+    width:30%;
+}
+.thongsokithuattd:last-child{
+    width:70%;
+    font-weight: 400;
+}
+.thongsokithuat tr{
+    display:flex;
+}
+.thongsokithuat table p{
+    font-weight: 400;
+}
+.form-group-checkbox{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.form-group-checkbox-item{
+    width:50%;
+}
+.form-product-setting form{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.form-product-setting-layout1,.form-product-setting-layout{
+    width:36%;
+}
+.form-product-setting-layout2{
+    width:100%;
+}
+.form-product-setting .form-group{
+    margin-top:2rem;
+}
+.form-product-setting select{
+    border-radius:5px;
+}
+.them-hang{
+    display:none;
+}
+.add-num-product{
+    cursor: pointer;
+}
+#add:checked ~ .them-hang{
+    display:flex;
+}
+.btn-them-hang{
+    margin-top:12px;
+    width:80px;
+    height:30px;
+}
+.chitietdonhang__title{
+    font-size: 5rem;
+    font-weight: 300;
+}
+.chitietdonhang__list{
+    list-style: none;
+    padding-left:0;  
+    width:95%;
+}
+.chitietdonhang__item{
+    display:flex;
+    height:15rem;
+    margin-bottom:5rem;
+    border-bottom: 2px solid gray;
+}
+.chitietdonhang__img-item{
+    background-size:100% ;
+    width:15rem;
+    height:100%;
+    background-repeat: no-repeat;
+}
+.chitietdonhang__item-layout1{
+    flex:1;
+    font-size:2rem;
+    font-weight: 500;
+}
+.chitietdonhang__name-item a{
+    color:#fe3e0e;
+}
+.chitietdonhang__number-item,.chitietdonhang__price-item,.chitietdonhang__price1-item{
+    font-size:1.6rem;
+    margin-left:5rem;
+}
+.chitietdonhang__item-layout2{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.chitietdonhang__footer{
+    display: flex;
+    justify-content:flex-end;
+    width:95%;
+    font-size:2rem;
+    margin-bottom:5rem;
+}
+.delete-firm{
+    color:white;
+    padding:10px;
+    border-radius:5px;
+    background-color: #fe3e0e;
+}
+.chitietdonhang__total{
+    margin-right:3rem;
+    padding:10px;
+}

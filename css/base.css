@@ -1,0 +1,135 @@
+/* CSS Document */
+
+*{
+	box-sizing:inherit
+}
+html {
+	font-size:62.5%;
+	line-height:1.6 rem;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+@keyframes fadeIn
+{
+	from{
+		opacity:0;
+	}
+	to{
+		opacity:1;
+	}
+}
+/* Test-khi học responsive sẽ sửa */
+
+.grid__column-3{
+	padding-left:12px;
+	padding-right:12px;
+	width:25%;
+}
+.grid__column-2{
+	padding-left:12px;
+	padding-right:12px;
+	width:16.666%;
+}
+.grid__column-3_10{
+	padding-left:12px;
+	padding-right:12px;
+	width:33.3333%;
+	
+}
+.grid__column-10{
+	width:83.334%;
+	padding-left:12px;
+	padding-right:12px;
+
+}
+.grid__column-9{
+	width:75%;
+	padding-left:12px;
+	padding-right:12px;
+
+}
+/*responsive*/
+
+
+.grid__row{
+	
+	display:flex;
+	flex-wrap:wrap;	
+	margin-left:-12px;
+	margin-right:-12px;
+}
+
+/*Modal*/
+.modal{
+	
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	display:flex;
+	animation:fadeIn ease-in 0.5s;
+}
+
+.modal__body	{
+	
+	background-color:#afa8a3;
+	margin:auto;
+	position:relative;
+	z-index: 4;
+	border-radius:8px;
+}
+/* Button style*/
+.btn{
+	min-width:150px;
+	height:40px;
+	text-decoration:none;
+	border:none;
+	border-radius:6px;
+	padding:0;
+	outline:none;
+	font-size:1.5rem;
+	cursor:pointer;
+	color:#262222;
+	background-color:white;
+	margin-right:7px;
+	margin-bottom: 8px;
+}
+.btn:hover{
+	background-color:rgba(0,0,0,0.1);
+}
+.btn.btn--primary{
+	background-color:#FC761A;
+	color:white;
+}
+.btn.btn--disabled{
+	color:#949494;
+	cursor:default;
+	background:c3c3c3;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.form-message{
+	font-size:1.6rem;
+	color:red;	
+}
+.phantrang{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.phantrang li{
+    width:3rem;
+    font-size:1.6rem;
+    border:1px solid black;
+   
+    padding:5px;
+    margin-right:10px;
+
+}
+.phantrang_active{
+    background-color:black;
+}
+.phantrang_active a{color:white;}
+	

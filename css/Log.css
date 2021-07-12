@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image:url(../images/hinh-nen-cho-win-10-6.jpg);
+    background-size: cover;
+    align-items: center;
+    
+}
+.container{
+    width: 36rem;
+    font-size:1.6rem;
+    margin: 8% auto;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    
+}
+.container--dangnhap{
+    height: 350px;
+}
+.container-addfirm{
+    height: 450px;
+}
+.container--dangki{
+    height: 500px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+    color: lightcoral;
+}
+
+.container form {
+    width: 280px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+.textValidate {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+::placeholder{
+    color: #777;
+}
+.btn-box{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+.submitValidate{
+    width: 110px;
+    height: 35px;
+    margin: 0 10px;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+.form-message{
+	color:red;
+	font-size:1.6rem;
+}
